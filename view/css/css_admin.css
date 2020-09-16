@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.col-md-2{
+    background-color: rgb(0, 26, 51);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.sidebar{
+    /*padding: 10px;*/
+    /*padding-left: 0;*/
+    text-align: left;
+    margin-top: 50px;
+}
+
+.sidebar a{
+    padding:15px;
+    display: block;
+    /*background-color: rgba();*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.sidebar a:hover{
+    background-color: rgb(35, 64, 92);
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+.sidebar a {float: left; font-size: 18px;}
+div.col-md-10 {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+      font-size: 16px;
+    }
+}
+
+.user{
+    margin-top: 40px;
+    color: white;
+}
+
+.col-md-10{
+    padding: 30px;
+    padding-top: 30px;
+    background-color: rgb(230,230,230);
+    min-height: 590px;
+    /*padding-bottom: 0%;
+    margin-bottom: -0%;*/
+}
+
+.atas{
+    padding: 5px;
+    background-color: #0059b3; 
+
+}
+
+.logo{
+    padding: 1px;
+    width: 13%;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+}
+
+.logo:hover, .logo a:hover{
+    background-color: rgb(30,30,30);
+    color: white;
+}
+
+.logo a{
+    color: black;
+    text-decoration: none;
+}
